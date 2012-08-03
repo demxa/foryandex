@@ -3,7 +3,32 @@
 	cursor:pointer;
 }
 
+.subtitle 
+{
+	cursor:pointer;
+}
+
 .content 
+{
+	display:none;
+}
+
+.question
+{
+	cursor:pointer;
+}
+
+.answer
+{
+	display:none;
+}
+
+.my 
+{
+	color: red;
+}
+
+.code
 {
 	display:none;
 }
