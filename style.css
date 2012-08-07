@@ -1,19 +1,59 @@
+div{border: 0px solid black;}
+
+#header
+{
+	font-family: Verdana;
+	padding: 0;
+}
+
 #main
 {
 	font-family: Tahoma;
+	padding: 0 20px 0 20px;
+	text-align: center;
+}
+
+#footer
+{
+	font-family: Tahoma;
+	font-size: 8pt;
+	padding: 30px 20px 0 20px;
+	text-align: center;
+}
+
+#h_left
+{
+	padding: 20px 0 0 50px;
+	display: block;
+	text-align: center;
+	width: 1%;
+}
+
+#sublogo
+{
+	color: #003399;
+	font: bold 12pt Arial;
+	display: inline;
+	padding-left: 70px;
+	width: 1%;
+}
+
+#top
+{
+	width: 40%;
+	text-align: center;
 	position: relative;
-	width: 1024px;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 0 20px; 0 20px;
-	border: 1px dashed black;
+	left: 30%;
+	right: 30%;
+	bottom: 40px;
+	font: normal 25pt Arial;
 }
 
 .title 
 {
 	cursor:pointer;
 	text-align: center;
-	font: 28pt bold;
+	font: normal 28pt Arial;
 	color: #003399;
 }
 
@@ -25,16 +65,20 @@
 .content 
 {
 	display:none;
+	width: 60%;
 	text-align: center;
+	position: relative;
+	left: 20%;
+	right: 20%;
 }
 
 .question
 {
 	cursor:pointer;
 	font-weight: bold;
-	color: #4990a6;
+	color: #273527;
 	padding-bottom: 10px;
-	text-align: justify;
+	text-align: left;
 }
 
 .answer
