@@ -3,7 +3,8 @@
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<title>Yandex School</title>
-		<link rel="stylesheet" href="style.css" type="text/css" />
+		<link href="style.css" media="screen" rel="stylesheet" type="text/css">
+		<link href="style_print.css" media="print" rel="stylesheet" type="text/css">
 		<script src="jquery.js"></script>
 		<script src="js.js"></script>
 	</head>
@@ -16,10 +17,14 @@
 	<div id="top">Анкета для Школы Разработки Интерфейсов</div>
 	</div>
 		<div id="main">
+		  <div id="no_print">
 			<div class="title">Общие вопросы</div>
-			<div class="content"><img src="yaz.jpg"></div>
+			<div class="content" id="common">
+			<img src="common.png" class="img_effect"></div>
 			<div class="title">Опыт разработки</div>
-			<div class="content"><img src="yaz.jpg"></div>
+			<div class="content" id="experience">
+			<img src="experience.png" class="img_effect"></div>
+		  </div>
 			<div class="title">Технические вопросы</div>
 			<div class="content">
 			  <ol>
@@ -347,7 +352,7 @@ yandex.listByCountry('Germany'); //BMW X5 2010, Audi Q5 2012
 			</div>
 		</div>
 		<div id="footer">
-		Copyleft Ильинский Дмитрий 2012
+		<p id="copy">Copyleft Ильинский Дмитрий 2012</p><p id="print"><a href="javaScript:window.print();">Версия для печати</a></p>
 		</div>
 	</body>
 </html>
